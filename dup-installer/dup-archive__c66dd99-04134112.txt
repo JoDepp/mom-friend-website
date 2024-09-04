@@ -1,0 +1,912 @@
+{
+    "dup_type": "lite",
+    "created": "2024-09-04 13:41:12",
+    "version_dup": "1.5.10.2",
+    "version_wp": "6.6.1",
+    "version_db": "5.7.23",
+    "version_php": "8.3.6",
+    "version_os": "Linux",
+    "blogname": "Mom Friend",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$P7MxqGlngZGZiei2s0w4pOybuJlJ4kI8SxmZXayv\/qLO\/v0QzowNm",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "hI4_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "momfriend.org",
+            "path": "\/",
+            "blogname": "Mom Friend",
+            "blog_prefix": "hI4_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "jody",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/momfriend.org",
+            "fullSiteUrl": "https:\/\/momfriend.org",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home2\/gwrilcmy\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home2\/gwrilcmy\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/momfriend.org\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8"
+        ],
+        "collationList": [
+            "utf8_general_ci",
+            "utf8_unicode_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 1,
+        "isNameUpperCase": 1,
+        "name": "gwrilcmy_WPDSO",
+        "tablesBaseCount": 30,
+        "tablesFinalCount": 30,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 1404,
+        "tablesSizeOnDisk": 7438336,
+        "tablesList": {
+            "hI4_actionscheduler_actions": {
+                "inaccurateRows": 20,
+                "insertedRows": 20,
+                "size": 131072
+            },
+            "hI4_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "hI4_actionscheduler_groups": {
+                "inaccurateRows": 0,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "hI4_actionscheduler_logs": {
+                "inaccurateRows": 58,
+                "insertedRows": 58,
+                "size": 49152
+            },
+            "hI4_ce4wp_abandoned_checkout": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "hI4_ce4wp_contacts": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "hI4_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "hI4_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "hI4_duplicator_packages": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "hI4_e_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "hI4_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "hI4_nfd_data_event_queue": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "hI4_options": {
+                "inaccurateRows": 423,
+                "insertedRows": 450,
+                "size": 4341760
+            },
+            "hI4_postmeta": {
+                "inaccurateRows": 626,
+                "insertedRows": 655,
+                "size": 1196032
+            },
+            "hI4_posts": {
+                "inaccurateRows": 115,
+                "insertedRows": 139,
+                "size": 458752
+            },
+            "hI4_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "hI4_terms": {
+                "inaccurateRows": 14,
+                "insertedRows": 16,
+                "size": 49152
+            },
+            "hI4_term_relationships": {
+                "inaccurateRows": 20,
+                "insertedRows": 20,
+                "size": 32768
+            },
+            "hI4_term_taxonomy": {
+                "inaccurateRows": 14,
+                "insertedRows": 16,
+                "size": 49152
+            },
+            "hI4_usermeta": {
+                "inaccurateRows": 35,
+                "insertedRows": 36,
+                "size": 49152
+            },
+            "hI4_users": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "hI4_wpforms_logs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "hI4_wpforms_payments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 163840
+            },
+            "hI4_wpforms_payment_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "hI4_wpforms_tasks_meta": {
+                "inaccurateRows": 6,
+                "insertedRows": 5,
+                "size": 16384
+            },
+            "hI4_yoast_indexable": {
+                "inaccurateRows": 18,
+                "insertedRows": 18,
+                "size": 114688
+            },
+            "hI4_yoast_indexable_hierarchy": {
+                "inaccurateRows": 14,
+                "insertedRows": 16,
+                "size": 65536
+            },
+            "hI4_yoast_migrations": {
+                "inaccurateRows": 24,
+                "insertedRows": 24,
+                "size": 32768
+            },
+            "hI4_yoast_primary_term": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "hI4_yoast_seo_links": {
+                "inaccurateRows": 16,
+                "insertedRows": 16,
+                "size": 49152
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "Percona",
+        "version": "5.7.23",
+        "versionComment": "Percona Server (GPL), Release 23, Revision 500fcf5",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20240904_momfriend",
+        "packageHash": "c66dd99-04134112",
+        "secondaryHash": "7f23a52-04134112"
+    },
+    "fileInfo": {
+        "dirCount": 3280,
+        "fileCount": 16949,
+        "size": 169193864
+    },
+    "wpInfo": {
+        "version": "6.6.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home2\/gwrilcmy\/public_html",
+        "targetPaths": [
+            "\/home2\/gwrilcmy\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "jody",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home2\/gwrilcmy\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "302268d01caf39121c0de6a0ae71a8392f6232bc2c706b91433a847f2cedbb0b",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "94b81378fcaa5876642abc3b7ffa44700f0f53d1f65dfd84cd1b66d226a3c82a",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "de80141522aa29ae9ad4a695bdb023da9b889fc8c2143d082fb08470dba1d184",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "23b6371fe78a00cadd3422cd3193aa1ee4aa8560e3bba9653061993d366e4bb0",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "8ebd113163f5c016850e37b555b884021454d0264f6ed7c356a6a5d0ef117d6f",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "c348eb4a634a2bd72679bd4836d461b2b17e10e6c7e6b9f7f96fc9ecf053233e",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "625e8fdff767fff72f7fa3cff8cb422882b004602acbd9ff0a64d76a81f2970c",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "1d4f4d474d9f746c2af57818f2e406475da0be409a23e6afb13964d510ef3fa1",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home2\/gwrilcmy\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/momfriend.org\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home2\/gwrilcmy\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/momfriend.org\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 300,
+                    "inWpConfig": true
+                },
+                "WP_POST_REVISIONS": {
+                    "value": 20,
+                    "inWpConfig": true
+                },
+                "COOKIE_DOMAIN": {
+                    "value": "",
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "512M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home2\/gwrilcmy\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 120,
+                    "inWpConfig": true
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home2\/gwrilcmy\/public_html\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home2\/gwrilcmy\/public_html\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 7,
+                    "inWpConfig": true
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_AUTO_UPDATE_CORE": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home2\/gwrilcmy\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/momfriend.org\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/momfriend.org",
+                "homeUrl": "https:\/\/momfriend.org",
+                "loginUrl": "https:\/\/momfriend.org\/wp-login.php",
+                "contentUrl": "https:\/\/momfriend.org\/wp-content",
+                "uploadBaseUrl": "https:\/\/momfriend.org\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/momfriend.org\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/momfriend.org\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/momfriend.org\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home2\/gwrilcmy\/public_html",
+                    "abs": "\/home2\/gwrilcmy\/public_html",
+                    "wpconfig": "\/home2\/gwrilcmy\/public_html",
+                    "wpcontent": "\/home2\/gwrilcmy\/public_html\/wp-content",
+                    "uploads": "\/home2\/gwrilcmy\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home2\/gwrilcmy\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home2\/gwrilcmy\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home2\/gwrilcmy\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home2\/gwrilcmy\/public_html",
+                    "abs": "\/home2\/gwrilcmy\/public_html",
+                    "wpconfig": "\/home2\/gwrilcmy\/public_html",
+                    "wpcontent": "\/home2\/gwrilcmy\/public_html\/wp-content",
+                    "uploads": "\/home2\/gwrilcmy\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home2\/gwrilcmy\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home2\/gwrilcmy\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home2\/gwrilcmy\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "akismet\/akismet.php": {
+                "slug": "akismet\/akismet.php",
+                "name": "Akismet Anti-spam: Spam Protection",
+                "version": "5.3.3",
+                "pluginURI": "https:\/\/akismet.com\/",
+                "author": "Automattic - Anti-spam Team",
+                "authorURI": "https:\/\/automattic.com\/wordpress-plugins\/",
+                "description": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam<\/strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.",
+                "title": "Akismet Anti-spam: Spam Protection",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "creative-mail-by-constant-contact\/creative-mail-plugin.php": {
+                "slug": "creative-mail-by-constant-contact\/creative-mail-plugin.php",
+                "name": "Creative Mail by Newfold Digital",
+                "version": "1.6.9",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/creative-mail-by-constant-contact\/",
+                "author": "Newfold Digital",
+                "authorURI": "https:\/\/newfold.com\/",
+                "description": "Free email marketing designed specifically for WordPress, Jetpack and WooCommerce. Send newsletters, promotions, updates and transactional e-commerce emails. Simple and easy, powered by Newfold Digital\u2019s rock solid reliability.",
+                "title": "Creative Mail by Newfold Digital",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.10.2",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.23.4",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "google-analytics-for-wordpress\/googleanalytics.php": {
+                "slug": "google-analytics-for-wordpress\/googleanalytics.php",
+                "name": "Google Analytics for WordPress by MonsterInsights",
+                "version": "9.0.1",
+                "pluginURI": "https:\/\/www.monsterinsights.com\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0",
+                "author": "MonsterInsights",
+                "authorURI": "https:\/\/www.monsterinsights.com\/lite\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=authoruri&utm_content=7%2E0%2E0",
+                "description": "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back.",
+                "title": "Google Analytics for WordPress by MonsterInsights",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "hello.php": {
+                "slug": "hello.php",
+                "name": "Hello Dolly",
+                "version": "1.7.2",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/hello-dolly\/",
+                "author": "Matt Mullenweg",
+                "authorURI": "http:\/\/ma.tt\/",
+                "description": "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly<\/cite> in the upper right of your admin screen on every page.",
+                "title": "Hello Dolly",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "jetpack\/jetpack.php": {
+                "slug": "jetpack\/jetpack.php",
+                "name": "Jetpack",
+                "version": "13.7",
+                "pluginURI": "https:\/\/jetpack.com",
+                "author": "Automattic",
+                "authorURI": "https:\/\/jetpack.com",
+                "description": "Security, performance, and marketing tools made by WordPress experts. Jetpack keeps your site protected so you can focus on more important things.",
+                "title": "Jetpack",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "optinmonster\/optin-monster-wp-api.php": {
+                "slug": "optinmonster\/optin-monster-wp-api.php",
+                "name": "OptinMonster",
+                "version": "2.16.4",
+                "pluginURI": "https:\/\/optinmonster.com",
+                "author": "OptinMonster Popup Builder Team",
+                "authorURI": "https:\/\/optinmonster.com",
+                "description": "OptinMonster is the best WordPress popup builder plugin that helps you grow your email newsletter list and sales with email popups, exit intent popups, floating bars and more!",
+                "title": "OptinMonster",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "ultimate-social-media-icons\/ultimate_social_media_icons.php": {
+                "slug": "ultimate-social-media-icons\/ultimate_social_media_icons.php",
+                "name": "Social Media and Share Icons (Ultimate Social Media)",
+                "version": "2.9.2",
+                "pluginURI": "https:\/\/ultimatelysocial.com",
+                "author": "Inisev",
+                "authorURI": "https:\/\/inisev.com",
+                "description": "Easy to use and 100% FREE social media plugin which adds social media icons to your website with tons of customization features!.",
+                "title": "Social Media and Share Icons (Ultimate Social Media)",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "astra-sites\/astra-sites.php": {
+                "slug": "astra-sites\/astra-sites.php",
+                "name": "Starter Templates",
+                "version": "4.4.2",
+                "pluginURI": "https:\/\/wpastra.com\/",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/www.brainstormforce.com",
+                "description": "Starter Templates is all in one solution for complete starter sites, single page templates, blocks & images. This plugin offers the premium library of ready templates & provides quick access to beautiful Pixabay images that can be imported in your website easily.",
+                "title": "Starter Templates",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bluehost-wordpress-plugin\/bluehost-wordpress-plugin.php": {
+                "slug": "bluehost-wordpress-plugin\/bluehost-wordpress-plugin.php",
+                "name": "The Bluehost Plugin",
+                "version": "3.14.7",
+                "pluginURI": "https:\/\/bluehost.com",
+                "author": "Bluehost",
+                "authorURI": "https:\/\/bluehost.com",
+                "description": "WordPress plugin that integrates a WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "title": "The Bluehost Plugin",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wpforms-lite\/wpforms.php": {
+                "slug": "wpforms-lite\/wpforms.php",
+                "name": "WPForms Lite",
+                "version": "1.9.0.4",
+                "pluginURI": "https:\/\/wpforms.com",
+                "author": "WPForms",
+                "authorURI": "https:\/\/wpforms.com",
+                "description": "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms.",
+                "title": "WPForms Lite",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wordpress-seo\/wp-seo.php": {
+                "slug": "wordpress-seo\/wp-seo.php",
+                "name": "Yoast SEO",
+                "version": "23.4",
+                "pluginURI": "https:\/\/yoa.st\/1uj",
+                "author": "Team Yoast",
+                "authorURI": "https:\/\/yoa.st\/1uk",
+                "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
+                "title": "Yoast SEO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "endurance-page-cache.php": {
+                "slug": "endurance-page-cache.php",
+                "name": "Endurance Page Cache",
+                "version": "2.2.1",
+                "pluginURI": "",
+                "author": "Mike Hansen",
+                "authorURI": "https:\/\/www.mikehansen.me\/",
+                "description": "This cache plugin is primarily for cache purging of the additional layers of cache that may be available on your hosting account.",
+                "title": "Endurance Page Cache",
+                "networkActive": false,
+                "active": false,
+                "mustUse": true,
+                "dropIns": false
+            },
+            "sso.php": {
+                "slug": "sso.php",
+                "name": "SSO",
+                "version": "0.5",
+                "pluginURI": "",
+                "author": "Garth Mortensen, Mike Hansen",
+                "authorURI": "",
+                "description": "",
+                "title": "SSO",
+                "networkActive": false,
+                "active": false,
+                "mustUse": true,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "astra": {
+                "slug": "astra",
+                "themeName": "Astra",
+                "version": "4.8.0",
+                "themeURI": "https:\/\/wpastra.com\/",
+                "parentTheme": false,
+                "template": "astra",
+                "stylesheet": "astra",
+                "description": "Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/wpastra.com\/about\/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme",
+                "tags": [
+                    "custom-menu",
+                    "custom-logo",
+                    "entertainment",
+                    "one-column",
+                    "two-columns",
+                    "left-sidebar",
+                    "e-commerce",
+                    "right-sidebar",
+                    "custom-colors",
+                    "editor-style",
+                    "featured-images",
+                    "full-width-template",
+                    "microformats",
+                    "post-formats",
+                    "rtl-language-support",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready",
+                    "blog"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "riverbank": {
+                "slug": "riverbank",
+                "themeName": "Riverbank",
+                "version": "1.0.11",
+                "themeURI": "https:\/\/themeisle.com\/themes\/riverbank\/",
+                "parentTheme": false,
+                "template": "riverbank",
+                "stylesheet": "riverbank",
+                "description": "Riverbank is a highly customizable and user-friendly WordPress theme that is optimized for search engines and fully compatible with the Gutenberg editor and popular page builder plugins. With support for WooCommerce, translation into other languages, and a responsive design, Riverbank is suitable for a variety of websites including blogs, small businesses, and online shops.",
+                "author": "ThemeIsle",
+                "authorURI": "https:\/\/themeisle.com",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "e-commerce",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.2",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.5",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.8",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "yith-wonder": {
+                "slug": "yith-wonder",
+                "themeName": "YITH Wonder",
+                "version": "2.1.0",
+                "themeURI": "https:\/\/wonder.yithemes.com\/",
+                "parentTheme": false,
+                "template": "yith-wonder",
+                "stylesheet": "yith-wonder",
+                "description": "Wonder is the new block-based, multi-purpose, WordPress theme by YITH. Compose your pages to fit any design you like with the power of Full Site Editing (FSE) and the included wide range of Block Patterns. The pre-built pages will help you populate and transform your website into a wonderful website. Customize colors and font pairings to create your own unique look and feel. Check out the demo site at https:\/\/wonder.yithemes.com\/",
+                "author": "YITH",
+                "authorURI": "https:\/\/yithemes.com\/",
+                "tags": [
+                    "blog",
+                    "e-commerce",
+                    "portfolio",
+                    "custom-background",
+                    "custom-colors",
+                    "custom-logo",
+                    "custom-menu",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "full-width-template",
+                    "sticky-post",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready",
+                    "block-styles",
+                    "block-patterns",
+                    "wide-blocks",
+                    "full-site-editing",
+                    "template-editing"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Mom Friend"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20240904_momfriend_c66dd9976f8948d13159_20240904134112_installer-backup.php",
+    "package_name": "20240904_momfriend_c66dd9976f8948d13159_20240904134112_archive.zip",
+    "package_hash": "c66dd99-04134112",
+    "package_notes": ""
+}
